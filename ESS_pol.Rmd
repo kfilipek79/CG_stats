@@ -15,6 +15,8 @@ library(foreign)
 ESS_nPol <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadzenie/CG_stats/ESS8PL.sav", use.value.labels = F, to.data.frame = T) ## pełne etykiety
 ESS_Pol <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadzenie/CG_stats/ESS8PL.sav", use.value.labels = T, to.data.frame = T) ##bez etykiet
 
+#npol_ger <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadzenie/CG_stats/polger.sav", use.value.labels = F, to.data.frame = T) ## pełne etykiety
+#pol_ger <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadzenie/CG_stats/polger.sav", use.value.labels = T, to.data.frame = T)
 
 ```
 
