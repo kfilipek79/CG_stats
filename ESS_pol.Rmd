@@ -20,3 +20,12 @@ ESS_Pol <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadz
 
 ```
 
+### Eksplorujemy zmienne
+
+
+```{r}
+labels <- attributes(ESS_Pol)$variable.labels
+write.csv(labels, file="etykiety_ESS.csv")
+
+```
+
