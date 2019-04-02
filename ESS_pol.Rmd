@@ -20,3 +20,32 @@ ESS_Pol <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadz
 
 ```
 
+### Eksplorujemy zmienne
+
+```{r}
+labels <- attributes(ESS_Pol)$variable.labels
+write.csv(labels, file="etykiety_ESS.csv")
+
+```
+
+### Zastanawiamy się co będzie efetem naszych zajęć
+- Cel
+- Podział zadań
+- Terminy
+- Zaliczenie
+
+
+### Statystyki opisowe
+- Analiza zmiennych - nasz problem badawczy
+- Jak wyszukać interesujące nas funkcje statystyczne bez posiadania jakiejkolwiek wiedzy, w których bibliotekach są zlokalizowane?
+
+##### Średnia, mediana, dominanta
+```{r}
+help("mean") ### argument trim?
+help("median")
+help("mode")
+```
+
+
+
+
