@@ -22,12 +22,17 @@ ESS_Pol <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadz
 
 ### Eksplorujemy zmienne
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5872d3c29b38573c9577bf142c719dc0038ed588
 ```{r}
 labels <- attributes(ESS_Pol)$variable.labels
 write.csv(labels, file="etykiety_ESS.csv")
 
 ```
 
+<<<<<<< HEAD
 ### Zastanawiamy się co będzie efetem naszych zajęć
 - Cel
 - Podział zadań
@@ -49,3 +54,5 @@ help("mode")
 
 
 
+=======
+>>>>>>> 5872d3c29b38573c9577bf142c719dc0038ed588
