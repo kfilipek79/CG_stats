@@ -18,6 +18,7 @@ ESS_Pol <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadz
 #npol_ger <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadzenie/CG_stats/polger.sav", use.value.labels = F, to.data.frame = T) ## pełne etykiety
 #pol_ger <- read.spss("/home/kamil/Dokumenty/Edukacja/Zajecia/Statystyka_wprowadzenie/CG_stats/polger.sav", use.value.labels = T, to.data.frame = T)
 
+test_dalej_3
 ```
 
 ### Eksplorujemy zmienne
